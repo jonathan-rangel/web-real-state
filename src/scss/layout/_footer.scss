@@ -1,5 +1,6 @@
 .footer {
     background-color: $dark-gray;
+    margin-bottom: 0;
 
     .footer-container {
         padding-top: calc($separation / 2);
@@ -9,5 +10,6 @@
         color: $white;
         text-align: center;
         padding: calc($separation / 2) 0;
+        margin-bottom: 0;
     }
 }
