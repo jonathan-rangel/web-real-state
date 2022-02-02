@@ -17,11 +17,11 @@
             min-height: 70rem;
         }
 
-    .header-container {
-        @include tablet {
-            min-height: 70rem;
+        .header-container {
+            @include tablet {
+                min-height: 70rem;
+            }
         }
-    }
     }
 }
 
@@ -30,7 +30,6 @@
     flex-direction: column;
     justify-content: space-between;
 
-    
     h1 {
         text-align: left;
         color: $white;
