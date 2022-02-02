@@ -1,6 +1,9 @@
-.icons-us {
-    @include grid(3, 2 rem)
+@include tablet {
+    .icons-us {
+        @include grid(3, 3rem)
+    }
 }
+
 
 .icon {
     text-align: center;

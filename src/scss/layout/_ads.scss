@@ -1,0 +1,36 @@
+@include tablet {
+    .container-ads {
+        @include grid(3, 3rem)
+    }
+}
+
+.ad {
+    background-color: lighten($gray, 9);
+
+    .container-ad {
+        padding: 2rem;
+    }
+    h3,p {
+        margin: 0;
+    }
+    .price {
+        color: $green;
+        font-weight: $black;
+        font-size: 2.4rem;
+    }
+}
+
+.ad-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -16,8 +16,20 @@
         @content;
     }
 }
+
 @mixin grid($columnas, $espaciado ) {
     display: grid;
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
+}
+
+@mixin button($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    font-weight: $bold;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: calc($separation / 2);
+
 }
